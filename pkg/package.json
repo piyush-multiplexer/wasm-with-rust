@@ -1,0 +1,15 @@
+{
+  "name": "wasm-with-rust",
+  "collaborators": [
+    "Piyush Goyani <thesourcepedia@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_with_rust_bg.wasm",
+    "wasm_with_rust.js",
+    "wasm_with_rust.d.ts"
+  ],
+  "module": "wasm_with_rust.js",
+  "types": "wasm_with_rust.d.ts",
+  "sideEffects": false
+}

@@ -1,5 +1,5 @@
 [package]
-name = "wasm-rust-demo"
+name = "wasm-with-rust"
 version = "0.1.0"
 authors = ["Piyush Goyani <thesourcepedia@gmail.com>"]
 edition = "2021"

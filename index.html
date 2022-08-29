@@ -8,7 +8,7 @@
 
 <body>
     <script type="module">
-        import init, { calc } from "./pkg/hello_world.js"
+        import init, { calc } from "./pkg/wasm_with_rust.js"
         init().then(() => {
             console.log(calc(10, 2, "+"))
             console.log(calc(10, 2, "-"))
@@ -16,7 +16,7 @@
             console.log(calc(10, 2, "/"))
         })
     </script>
-    <h1>Web Assembly(wasm)</h1>
+    <!-- <h1>Web Assembly(wasm)</h1> -->
     <p>See console logs for Result.</p>
 
 </body>
