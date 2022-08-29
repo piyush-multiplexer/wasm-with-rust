@@ -16,6 +16,15 @@
             console.log(calc(10, 2, "/"))
         })
     </script>
+    <script>
+        WebAssembly.instantiateStreaming(fetch('./pkg/wasm_with_rust_bg.wasm'),).then((results) => {
+            const calc = results.instance.exports.calc
+            console.log(calc(10, 2, 43))
+            console.log(calc(10, 2, 45))
+            console.log(calc(10, 2, 42))
+            console.log(calc(10, 2, 47))
+        })
+    </script>
     <!-- <h1>Web Assembly(wasm)</h1> -->
     <p>See console logs for Result.</p>
 
